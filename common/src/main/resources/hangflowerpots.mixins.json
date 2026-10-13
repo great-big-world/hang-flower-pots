@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.creoii.greatbigworld.hangflowerpots.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "FlowerPotBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

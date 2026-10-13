@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=true": {
+      "model": "great_big_world:block/hanging_potted_oxeye_daisy"
+    },
+    "hanging=false": {
+      "model": "minecraft:block/potted_oxeye_daisy"
+    }
+  }
+}

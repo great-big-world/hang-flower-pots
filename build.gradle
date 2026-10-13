@@ -1,0 +1,9 @@
+
+def properties = new Properties()
+
+file('gradle.properties').withInputStream {
+    properties.load(it)
+}
+
+ext.mod_version = properties.getProperty('mod_version')
+ext.archives_name = properties.getProperty('archives_name')

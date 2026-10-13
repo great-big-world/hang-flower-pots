@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "hang_flower_pots",
+  "version": "${version}",
+  "name": "Hang Flower Pots",
+  "description": "Hang Flower Pots from the ceiling",
+  "authors": ["creoii"],
+  "contact": {
+    "homepage": "https://greatbigworld.creoii.dev"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hang_flower_pots/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.creoii.greatbigworld.hangflowerpots.fabric.HangFlowerPotsFabric"
+    ]
+  },
+  "mixins": [
+    "hangflowerpots.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+    ,"architectury": ">=22.0.4"
+    ,"fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

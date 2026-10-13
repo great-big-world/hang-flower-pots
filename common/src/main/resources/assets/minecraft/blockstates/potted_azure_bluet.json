@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=true": {
+      "model": "great_big_world:block/hanging_potted_azure_bluet"
+    },
+    "hanging=false": {
+      "model": "minecraft:block/potted_azure_bluet"
+    }
+  }
+}

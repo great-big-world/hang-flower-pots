@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=true": {
+      "model": "great_big_world:block/hanging_flower_pot"
+    },
+    "hanging=false": {
+      "model": "minecraft:block/flower_pot"
+    }
+  }
+}

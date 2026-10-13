@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "hang_flower_pots"
+version = "${version}"
+displayName = "Hang Flower Pots"
+authors = "creoii"
+description = '''
+Hang Flower Pots from the ceiling
+'''
+displayURL="https://greatbigworld.creoii.dev"
+#iconFile = ""
+
+[[dependencies.hang_flower_pots]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hang_flower_pots]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hang_flower_pots]]
+modId = "architectury"
+type = "required"
+versionRange = "[22.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "hangflowerpots.mixins.json"
